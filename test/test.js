@@ -1,8 +1,8 @@
 import chai from 'chai';
 const assert = require('chai').assert;
 const superTest = require('supertest');
-const mainApp = require('../server/controller/recipeController');
-const server = require('../server/app');
+const mainApp = require('../Server/controller/recipeController');
+const server = require('../Server/app');
 const expect = chai.expect;
 // get api and run it through supertest
 const request = superTest(server);
