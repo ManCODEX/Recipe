@@ -1,18 +1,7 @@
+sudo: false
 language: node_js
 node_js:
-- "stable" 
-script:
-- npm test
-install:
-- npm install
-directories:
-- "node_modules"
-after_success:
-- npm run coveralls
-branches:
-only:
-- Integrate-Travis
-- developBranch
-- develop
-webhooks:
-- https://coveralls.io/webhook
+  - 'node'
+  - '6'
+  - '5'
+  - '4'
