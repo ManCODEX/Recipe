@@ -12,6 +12,7 @@ after_success:
 branches:
 only:
 - Integrate-Travis
+- developBranch
 - develop
 webhooks:
 - https://coveralls.io/webhook
